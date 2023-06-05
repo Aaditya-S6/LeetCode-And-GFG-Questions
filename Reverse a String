@@ -1,0 +1,10 @@
+class Solution {
+    static String revStr(String S) {
+        // code here
+        String ans="";
+        for(int i=S.length()-1;i>=0;i--){
+            ans+=S.charAt(i);
+        }
+        return ans;
+    }
+}
